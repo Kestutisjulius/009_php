@@ -10,5 +10,8 @@
         <a href="./index.php">index</a>
         <br>
         <a href="./index.php">file</a>
+    <?php
+    echo readfile("./examples/superGlobals.md");
+    ?>
     </body>
 </html>
