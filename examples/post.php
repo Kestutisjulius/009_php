@@ -7,6 +7,7 @@
 </form>
 
 <?php
+echo '<pre>';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // collect value of input field
     $name = $_POST['fname'];
@@ -16,6 +17,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo $name;
     }
 }
+
+print_r( $_SERVER);
 ?>
 
 </body>
